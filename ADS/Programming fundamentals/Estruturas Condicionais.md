@@ -1,4 +1,3 @@
-﻿using System;
 
 1. Faça um programa que leia dois números
 inteiros e faça a divisão do primeiro pelo
