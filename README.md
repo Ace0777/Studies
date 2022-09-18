@@ -1,6 +1,6 @@
 # Studies
 
-Estudos do Primeiro Período de Análise e Desenvolvimento de Sistemas.
+Exercícios do Primeiro Período de Análise e Desenvolvimento de Sistemas.
 
 ## Indice
 
