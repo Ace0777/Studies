@@ -1,6 +1,6 @@
 # Studies
 
-Estudos do Primeiro Período de ADS.
+Estudos do Primeiro Período de Análise e Desenvolvimento de Sistemas.
 
 ## Indice
 
