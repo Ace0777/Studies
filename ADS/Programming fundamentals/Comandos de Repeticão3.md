@@ -81,27 +81,28 @@ Console.Write("O Fatorial de {0} é: {1}", n,fatorial);
 internal class Program
 {
 
-// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-private static void Main(string[] args)
-{
-int f1 = 0;
-int f2 = 0;
-int x1 = 0;
-int n;
-Console.Write("Informe o valor de N: ");
-n = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i <= n; i++){
-Console.WriteLine("A sequencia é: {0} ",f1);
-if(f1==0){
-f1=1;
-}
-else{
-x1 = f1; //1,1,2,3,5
-f1 = f1 + f2; // 1,2,3,5,8,13
-f2 = x1; // 1,2,3,5,8,13
-}
-}
-}
+   // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+   private static void Main(string[] args)
+   {
+      int f1 = 0;
+      int f2 = 0;
+      int x1 = 0;
+      int n;
+      Console.Write("Informe o valor de N: ");
+      n = Convert.ToInt32(Console.ReadLine());
+      for (int i = 1; i <= n; i++){
+      Console.WriteLine("A sequencia é: {0} ",f1);
+      if(f1==0){
+      f1=1;
+      }
+      else{
+      
+      x1 = f1; //1,1,2,3,5
+      f1 = f1 + f2; // 1,2,3,5,8,13
+      f2 = x1; // 1,2,3,5,8,13
+      }
+   }
+   }
 }
 ```
 
