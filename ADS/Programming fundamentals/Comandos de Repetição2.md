@@ -10,11 +10,12 @@ internal class Program
     int n; double e= 0;
     Console.Write("Informe o valor de N");
     n = Convert.ToInt32(Console.ReadLine());
-    for(double i = 1; i<=n; i++){
+    for(double i = 1; i<=n; i++)
+    {
       e += (1.0/i);
     }
     Console.Write("O valor de E é {0}", e);
-}
+   }
 }
 ```
 
@@ -26,19 +27,22 @@ internal class Program
 {
  private static void Main(string[] args)
  {
-   int valor; int menorvalor = 0; int maiorvalor = 0;
-   for(int cont = 1; cont <= 10; cont++){
-     Console.Write("Escreva uma valor");
-     valor = Convert.ToInt32(Console.ReadLine());
+      int valor; int menorvalor = 0; int maiorvalor = 0;
+      for(int cont = 1; cont <= 10; cont++)
+      {
+         Console.Write("Escreva uma valor");
+         valor = Convert.ToInt32(Console.ReadLine());
      if(cont==1)
      {
        menorvalor = menorvalor + valor;
        maiorvalor = maiorvalor + valor;
-   }
-   else if(valor>maiorvalor){
+     }
+   else if(valor>maiorvalor)
+   {
        maiorvalor =  valor;
    }
-     if (valor<menorvalor){
+     if (valor<menorvalor)
+     {
        menorvalor = valor;
      }
    }
@@ -55,15 +59,16 @@ internal class Program
 internal class Program
 {
 private static void Main(string[] args)
-{
-double chico = 1.50; double ze = 1.40; int i=0;
-while(ze<chico){
-chico = chico + 0.02;
-ze = ze + 0.03;
-i++;
-}
+   {
+      double chico = 1.50; double ze = 1.40; int i=0;
+      while(ze<chico)
+      {
+         chico = chico + 0.02;
+         ze = ze + 0.03;
+         i++;
+      }
 Console.Write("O Tempo necessario para Ze passar Chico é: {0} anos", i);
-}
+   }
 }
 ```
 
