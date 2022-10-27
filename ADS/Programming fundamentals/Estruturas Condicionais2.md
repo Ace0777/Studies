@@ -132,5 +132,3 @@ return fatorial;
 }
 }
 ```
-
-

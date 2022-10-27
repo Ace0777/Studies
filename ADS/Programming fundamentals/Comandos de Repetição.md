@@ -1,6 +1,6 @@
-﻿
-1. Fazer um algoritmo que imprima todos os números
-pares no intervalo de 1 a 100.
+﻿1. Fazer um algoritmo que imprima todos os números
+   pares no intervalo de 1 a 100.
+
 ```cs
 internal class Program
 {
@@ -17,8 +17,10 @@ internal class Program
     }
 
 ```
+
 2. Fazer um algoritmo que imprima todos os números de
-100 até 1.
+   100 até 1.
+
 ```cs
 
 internal class Program
@@ -26,7 +28,7 @@ internal class Program
   private static void Main(string[] args)
   {
    int x1 = 100;
-   
+
   while (x1 >= 1)
   {
     Console.Write("{0} ",x1);
@@ -36,8 +38,10 @@ internal class Program
 }
 
 ```
+
 3. Ler um número inteiro e positivo e verificar se este é ou
-não um número primo.
+   não um número primo.
+
 ```cs
 
 internal class Program
@@ -51,7 +55,7 @@ internal class Program
     {
       if (num % i == 0)
         cont++;
-      
+
     }
     if (cont == 2)
         Console.WriteLine("{0} é um numero primo",num);
@@ -61,11 +65,13 @@ internal class Program
     }
 
 ```
+
 4. Dada uma dívida de 10000 reais que cresce a juros de
-2,5% ao mês e uma aplicação de 1500 reais com
-rendimento de 4% ao mês, escrever um algoritmo que
-determina o número de meses necessários para pagar
-a dívida.
+   2,5% ao mês e uma aplicação de 1500 reais com
+   rendimento de 4% ao mês, escrever um algoritmo que
+   determina o número de meses necessários para pagar
+   a dívida.
+
 ```cs
 
 internal class Program
@@ -86,7 +92,9 @@ internal class Program
 }
 
 ```
+
 5. Calcular o valor de S:
+
 ```cs
 
 internal class Program
@@ -104,17 +112,19 @@ internal class Program
       potencia = potencia++;
     }
       Console.Write("O valor de S é: {0:N2}",s);
-    
+
     }
 }
 
 ```
+
 6- Exercicio extra:
+
 ```cs
 
 internal class Program
 {
-  static int testeidade() 
+  static int testeidade()
   {
     int idade;
     Console.Write("Informe sua idade");
@@ -131,3 +141,4 @@ internal class Program
     Console.Write("Idade informada: {0}", testeidade());
     }
 }
+```
